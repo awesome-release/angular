@@ -3,6 +3,8 @@ This project was derived from the Angular project in [awesome-compose](https://g
 
 To make this project work in Release, we had to add --disableHostCheck=true in the angular/Dockerfile on line 10. This instructs ng to let any host connect to the server. In the local docker-compose implementation it assumed localhost. 
 
+To make this project run in Release, simply create a new application with this repository.
+
 ## Compose sample 
 ### Angular service
 
